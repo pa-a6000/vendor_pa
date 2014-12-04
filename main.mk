@@ -138,6 +138,9 @@ else
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 endif
 
+# Squisher Location
+SQUISHER_SCRIPT := vendor/pa/tools/squisher
+
 # AOSPA services
 PRODUCT_PACKAGES += pa-services
 PRODUCT_PACKAGES += co.aospa.power.ShutdownAOSPA.xml
