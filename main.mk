@@ -103,8 +103,9 @@ PRODUCT_PACKAGES += \
     SnapdragonGallery \
     SnapdragonMusic
 
-# Include librsjni explicitly to workaround GMS issue
+# Include explicitly to workaround GMS issues
 PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
     librsjni
 
 # Build sound recorder
