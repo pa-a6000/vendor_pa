@@ -23,3 +23,12 @@ add_lunch_combo pa_vs985-userdebug
 # AOSP
 add_lunch_combo pa_angler-userdebug
 add_lunch_combo pa_bullhead-userdebug
+
+# YU
+add_lunch_combo pa_tomato-userdebug
+add_lunch_combo pa_lettuce-userdebug
+add_lunch_combo pa_jalebi-userdebug
+
+# Mi
+add_lunch_combo pa_ferrari-userdebug
+

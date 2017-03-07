@@ -38,3 +38,13 @@
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/angler/pa_angler.mk \
     $(LOCAL_DIR)/bullhead/pa_bullhead.mk
+
+# YU
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/tomato/pa_tomato.mk \
+    $(LOCAL_DIR)/lettuce/pa_lettuce.mk \
+    $(LOCAL_DIR)/jalebi/pa_jalebi.mk
+
+# Mi
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/ferrari/pa_ferrari.mk
