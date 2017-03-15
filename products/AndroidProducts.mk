@@ -48,3 +48,8 @@
 # Mi
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/ferrari/pa_ferrari.mk
+
+# Motorola
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/merlin/pa_merlin.mk \
+    $(LOCAL_DIR)/osprey/pa_osprey.mk
