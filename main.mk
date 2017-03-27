@@ -85,7 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
 
 # Build Chromium for Snapdragon (PA Browser)
-PRODUCT_PACKAGES += PA_Browser
+PRODUCT_PACKAGES += PABrowser
 
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
@@ -149,6 +149,9 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth Audio (A2DP)
 PRODUCT_PACKAGES += libbthost_if
+
+# Substratum
+PRODUCT_PACKAGES += ThemeInterfacer
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
