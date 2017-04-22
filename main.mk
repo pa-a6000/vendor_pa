@@ -88,9 +88,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/install/gapps-config.txt:install/gapps-config.txt
 
-# Build Chromium for Snapdragon (PA Browser)
-PRODUCT_PACKAGES += PABrowser
-
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
     SnapdragonGallery \
@@ -155,7 +152,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += libbthost_if
 
 # Substratum
-PRODUCT_PACKAGES += ThemeInterfacer
+#PRODUCT_PACKAGES += ThemeInterfacer
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
