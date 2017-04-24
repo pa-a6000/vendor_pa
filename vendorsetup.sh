@@ -35,3 +35,6 @@ add_lunch_combo pa_ferrari-userdebug
 # Motorola
 add_lunch_combo pa_merlin-userdebug
 add_lunch_combo pa_osprey-userdebug
+
+# Lenovo
+add_lunch_combo pa_A6020-userdebug

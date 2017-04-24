@@ -54,3 +54,7 @@
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/merlin/pa_merlin.mk \
     $(LOCAL_DIR)/osprey/pa_osprey.mk
+
+# Lenovo
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/A6020/pa_A6020.mk
