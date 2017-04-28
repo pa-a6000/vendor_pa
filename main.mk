@@ -88,6 +88,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/install/gapps-config.txt:install/gapps-config.txt
 
+# Build Chromium for Snapdragon (PA Browser)
+PRODUCT_PACKAGES += PABrowser
+
 # Include hostapd configuration
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
@@ -158,7 +161,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += libbthost_if
 
 # Substratum
-#PRODUCT_PACKAGES += ThemeInterfacer
+PRODUCT_PACKAGES += ThemeInterfacer
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
