@@ -22,8 +22,10 @@
     $(LOCAL_DIR)/robin/pa_robin.mk \
     $(LOCAL_DIR)/z2_plus/pa_z2_plus.mk
 
-# Samsung Exynos
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk
+# Samsung Exynos family
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk \
+    $(LOCAL_DIR)/gts210wifi/pa_gts210wifi.mk
 
 # AOSP
     PRODUCT_MAKEFILES += \
@@ -35,10 +37,6 @@
     $(LOCAL_DIR)/tomato/pa_tomato.mk \
     $(LOCAL_DIR)/lettuce/pa_lettuce.mk \
     $(LOCAL_DIR)/jalebi/pa_jalebi.mk
-
-# Mi
-    PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/ferrari/pa_ferrari.mk
 
 # Motorola
     PRODUCT_MAKEFILES += \
