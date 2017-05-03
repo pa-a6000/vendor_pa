@@ -13,20 +13,23 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (pa_merlin,$(TARGET_PRODUCT))
+ifeq (pa_a6000,$(TARGET_PRODUCT))
+endif
 
+# Include ParanoidAndroid common configuration
 $(call inherit-product, vendor/pa/main.mk)
 
-$(call inherit-product, device/motorola/merlin/full_merlin.mk)
-
-# Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
 
-## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := merlin
-PRODUCT_NAME := pa_merlin
-PRODUCT_BRAND := Motorola
-PRODUCT_MANUFACTURER := Motorola
-PRODUCT_RELEASE_NAME := merlin
+$(call inherit-product, device/lenovo/a6000/full_a6000.mk)
 
-endif
+# Must define platform variant before including any common things
+TARGET_BOARD_PLATFORM_VARIANT := msm8916
+
+# Assert
+TARGET_OTA_ASSERT_DEVICE := Kraft-T,a6000,K30-T,A6000,Kraft-W,Kraft-C,k30t,msm8916,Kraft-A6000,wt86518
+
+PRODUCT_NAME := pa_a6000
+BOARD_VENDOR := Lenovo
+
+PRODUCT_GMS_CLIENTID_BASE := android-lenovo

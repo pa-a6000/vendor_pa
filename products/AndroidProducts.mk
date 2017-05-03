@@ -45,4 +45,5 @@
 
 # Lenovo
     PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/a6000/pa_a6000.mk \
     $(LOCAL_DIR)/A6020/pa_A6020.mk
