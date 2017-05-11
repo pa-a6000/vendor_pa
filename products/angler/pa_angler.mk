@@ -20,6 +20,9 @@ TARGET_USES_AOSP := false
 # We have our own power HAL
 TARGET_USES_DEVICE_SPECIFIC_POWERHAL := true
 
+# Use AOSP Camera Application
+TARGET_USES_AOSP_CAMERA := true
+
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
 AUDIO_FEATURE_ENABLED_DSM_FEEDBACK := true
 
@@ -42,7 +45,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.mdpcomp.enable=true \
     persist.hwc.ptor.enable=true \
     persist.mdpcomp.4k2kSplit=1 \
-    persist.hwc.mdpcomp.maxpermixer=5
+    persist.hwc.mdpcomp.maxpermixer=5 \
     persist.mdpcomp_perfhint=50 \
     persist.metadata_dynfps.disable=true \
     persist.sys.wfd.virtual=0
