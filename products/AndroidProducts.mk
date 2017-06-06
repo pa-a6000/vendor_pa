@@ -1,4 +1,4 @@
-# Copyright (C) 2016 ParanoidAndroid Project
+# Copyright (C) 2016-2017 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,6 +16,7 @@
 # CAF
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bacon/pa_bacon.mk \
+    $(LOCAL_DIR)/gemini/pa_gemini.mk \
     $(LOCAL_DIR)/oneplus2/pa_oneplus2.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/onyx/pa_onyx.mk \
@@ -30,7 +31,9 @@
 # AOSP
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/angler/pa_angler.mk \
-    $(LOCAL_DIR)/bullhead/pa_bullhead.mk
+    $(LOCAL_DIR)/bullhead/pa_bullhead.mk \
+    $(LOCAL_DIR)/marlin/pa_marlin.mk \
+    $(LOCAL_DIR)/sailfish/pa_sailfish.mk
 
 # YU
     PRODUCT_MAKEFILES += \

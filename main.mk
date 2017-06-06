@@ -16,7 +16,7 @@ export VENDOR := pa
 
 # Include versioning information
 # Format: Major.minor.maintenance(-TAG)
-export PA_VERSION := 7.1.2-DEV
+export PA_VERSION := 7.1.3-DEV
 
 export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -116,6 +116,9 @@ PRODUCT_PACKAGES += ParanoidHub
 
 # Build WallpaperPicker
 PRODUCT_PACKAGES += WallpaperPicker
+
+# Build ParanoidPapers
+PRODUCT_PACKAGES += ParanoidPapers
 
 # Include the custom PA bootanimation
 ifeq ($(TARGET_BOOT_ANIMATION_RES),480)

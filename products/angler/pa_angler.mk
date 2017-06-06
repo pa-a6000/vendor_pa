@@ -1,4 +1,4 @@
-# Copyright 2016 ParanoidAndroid Project
+# Copyright 2016-2017 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,9 +13,6 @@
 # limitations under the License.
 
 ifeq (pa_angler,$(TARGET_PRODUCT))
-
-# Use the full CAF BSP
-TARGET_USES_AOSP := false
 
 # We have our own power HAL
 TARGET_USES_DEVICE_SPECIFIC_POWERHAL := true

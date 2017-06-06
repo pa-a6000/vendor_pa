@@ -19,7 +19,7 @@ ifeq (pa_oneplus3,$(TARGET_PRODUCT))
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Include ParanoidAndroid common configuration
+# Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Advanced platform features
@@ -43,7 +43,7 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-     BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:7.1.1/NMF26F/03061309:user/release-keys \
-     PRIVATE_BUILD_DESC="OnePlus3-user 7.1.1 NMF26F 17 dev-keys"
+     BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:7.1.1/NMF26F/04101830:user/release-keys \
+     PRIVATE_BUILD_DESC="OnePlus3-user 7.1.1 NMF26F 53 dev-keys"
 
 endif
