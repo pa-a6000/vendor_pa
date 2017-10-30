@@ -21,7 +21,7 @@ $(call inherit-product, vendor/pa/main.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 
-$(call inherit-product, device/lenovo/a6000/full_a6000.mk)
+$(call inherit-product, device/lenovo/a6000/a6000.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
