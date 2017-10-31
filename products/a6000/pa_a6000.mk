@@ -33,3 +33,5 @@ PRODUCT_NAME := pa_a6000
 BOARD_VENDOR := Lenovo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
+
+include device/qcom/common/common.mk
